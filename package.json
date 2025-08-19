@@ -2,13 +2,10 @@
   "name": "trainee-bot",
   "version": "1.0.0",
   "description": "Telegram bot for fitness workout recommendations",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "node test.js",
-    "demo": "node demo.js",
-    "test:watch": "nodemon test.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": ["telegram", "bot", "fitness", "workout"],
   "author": "Edward",
